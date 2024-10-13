@@ -12,7 +12,10 @@ function inputbtnclear() {
 
 function inputbtncalc() {
     try {
-        display.value = eval(display.value); 
+        display.value = eval(display.value);
+        if(display.value == "undefined"){
+            display.value=""
+        }
     } catch {
         alert("Invalid Format")
         display.value=""
