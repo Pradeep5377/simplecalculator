@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div id="calc">
+        <input id="display" readonly>
+        <div class="icon">
+            <button onclick="inputbtn('9')">9</button>
+            <button onclick="inputbtn('8')">8</button>
+            <button onclick="inputbtn('7')">7</button>
+            <button onclick="inputbtn('+')" class ="op">+</button>
+            <button onclick="inputbtn('6')">6</button>
+            <button onclick="inputbtn('5')">5</button>
+            <button onclick="inputbtn('4')">4</button>
+            <button onclick="inputbtn('-')" class="op">-</button>            
+            <button onclick="inputbtn('3')">3</button>            
+            <button onclick="inputbtn('2')">2</button>            
+            <button onclick="inputbtn('1')">1</button>            
+            <button onclick="inputbtn('*')" class="op">*</button>
+            <button onclick="inputbtn('0')">0</button>            
+            <button onclick="inputbtn('00')">00</button>            
+            <button onclick="inputbtn('.')">.</button>            
+            <button onclick="inputbtn('/')" class="op">/</button>
+            
+            <button onclick="inputbtnclear()" class="clear">C</button>
+            <button onclick="inputbtncalc()" class="equal">=</button>               
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
